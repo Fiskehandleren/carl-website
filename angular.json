@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "house-trends": {
+    "carl-website": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/house-trends",
+            "outputPath": "dist/carl-website",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,18 +68,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "house-trends:build"
+            "browserTarget": "carl-website:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "house-trends:build:production"
+              "browserTarget": "carl-website:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "house-trends:build"
+            "browserTarget": "carl-website:build"
           }
         },
         "test": {
@@ -116,16 +116,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "house-trends:serve"
+            "devServerTarget": "carl-website:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "house-trends:serve:production"
+              "devServerTarget": "carl-website:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "house-trends"
+  "defaultProject": "carl-website"
 }

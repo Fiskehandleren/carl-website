@@ -8,7 +8,7 @@ import { DOCUMENT } from '@angular/common';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'house-trends';
+  title = 'carl-website';
   activeSection = 1;
 
   constructor(
