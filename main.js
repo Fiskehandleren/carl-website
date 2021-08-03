@@ -528,7 +528,7 @@ function PortfolioComponent_div_1_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](20, "mat-card-header");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](21, "div", 6);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](22, "a", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](23, "img", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](23, "img", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](24, "mat-card-title");
@@ -562,7 +562,7 @@ class PortfolioComponent {
     }
 }
 PortfolioComponent.ɵfac = function PortfolioComponent_Factory(t) { return new (t || PortfolioComponent)(); };
-PortfolioComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: PortfolioComponent, selectors: [["app-portfolio"]], decls: 2, vars: 1, consts: [[2, "height", "1000px", 3, "appear"], [4, "ngIf"], [2, "margin-left", "10%", "max-width", "63%"], [2, "font-family", "'NTR', sans-serif", "font-size", "50px", "color", "black"], [2, "display", "flex"], [2, "width", "50%", "margin-right", "5%", "max-height", "fit-content"], ["mat-card-avatar", "", 2, "max-width", "300px"], ["href", "https://github.com/Fiskehandleren/StudyBot"], ["src", "../../assets/GitHub-Mark-64px.png", "alt", "github icon", "width", "32px", "href", "google.com"], [2, "font-family", "NTR"], [2, "font-family", "NTR", "color", "grey"], [2, "width", "50%", "margin-right", "5%", "max-height", "250px"], ["src", "assets/GitHub-Mark-64px.png", "alt", "github icon", "width", "32px", "href", "google.com"]], template: function PortfolioComponent_Template(rf, ctx) { if (rf & 1) {
+PortfolioComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: PortfolioComponent, selectors: [["app-portfolio"]], decls: 2, vars: 1, consts: [[2, "height", "1000px", 3, "appear"], [4, "ngIf"], [2, "margin-left", "10%", "max-width", "63%"], [2, "font-family", "'NTR', sans-serif", "font-size", "50px", "color", "black"], [2, "display", "flex"], [2, "width", "50%", "margin-right", "5%", "max-height", "fit-content"], ["mat-card-avatar", "", 2, "max-width", "300px"], ["href", "https://github.com/Fiskehandleren/StudyBot"], ["src", "assets/GitHub-Mark-64px.png", "alt", "github icon", "width", "32px", "href", "google.com"], [2, "font-family", "NTR"], [2, "font-family", "NTR", "color", "grey"], [2, "width", "50%", "margin-right", "5%", "max-height", "250px"]], template: function PortfolioComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("appear", function PortfolioComponent_Template_div_appear_0_listener($event) { return ctx.onAppear($event); });
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](1, PortfolioComponent_div_1_Template, 33, 1, "div", 1);
