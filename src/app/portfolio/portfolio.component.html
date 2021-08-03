@@ -1,20 +1,43 @@
 <div (appear)="onAppear($event)" style="height:1000px;">
-    <div *ngIf="hasAppeared" [@enterAnimation]>
-      <div style="margin-left: 10%;max-width: 30%;">
-        <div class="tracking-in-contract" style="font-family: 'NTR', sans-serif; font-size: 50px; color: black;">
-          Projects
-        </div>
-  
-        <div style="display: flex;">
-          <div style="font-family: 'NTR', sans-serif; font-size: 25px; color: grey; flex-grow: 1;">
-            More about me here. Bla bla bla.           More about me here. Bla bla bla.           More about me here. Bla bla bla.
-          </div>
-          <div style="float: right; width: 100%;">
-            <img src="assets/me.jpg" style="width: 300px;" alt="me">
-          </div>
-        </div>
+  <div *ngIf="hasAppeared" [@enterAnimation]>
+    <div style="margin-left: 10%;max-width: 63%;">
+      <div style="font-family: 'NTR', sans-serif; font-size: 50px; color: black;">
+        software projects
+      </div>
 
+      <div style="display: flex;">
+        <mat-card style="width: 50%; margin-right: 5%; max-height: fit-content;">
+          <mat-card-header>
+            <div mat-card-avatar style="max-width: 300px;">
+                <a href="https://github.com/Fiskehandleren/StudyBot">
+                    <img src="../../assets/GitHub-Mark-64px.png" alt="github icon" width="32px" href="google.com">
+                  </a>
+                </div>
+            <mat-card-title>StudyBot</mat-card-title>
+            <mat-card-subtitle>Teams bot powered by NLP</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <p style="font-family: 'NTR';"> A Microsoft Teams study bot, which can help out with studying, baking and other stuff.</p>
+            <p style="font-family: 'NTR';color: grey;"> React, NLP, Javascript, Azure</p>
+          </mat-card-content>
+        </mat-card>
+
+        <mat-card style="width: 50%; margin-right: 5%; max-height: 250px;">
+            <mat-card-header>
+              <div mat-card-avatar style="max-width: 300px;">
+                  <a href="https://github.com/Fiskehandleren/StudyBot">
+                      <img src="../../assets/GitHub-Mark-64px.png" alt="github icon" width="32px" href="google.com">
+                    </a>
+                  </div>
+              <mat-card-title>carl-website</mat-card-title>
+              <mat-card-subtitle> Personal website </mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+              <p style="font-family: 'NTR';"> A simple Angular website to show who I am!</p>
+              <p style="font-family: 'NTR';color: grey;"> Angular, Typescript, HTML, CSS </p>
+            </mat-card-content>
+          </mat-card>
       </div>
     </div>
   </div>
-  
+</div>

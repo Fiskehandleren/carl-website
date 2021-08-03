@@ -1,19 +1,20 @@
-<div (appear)="onAppear($event)" style="height:1000px;">
-    <div *ngIf="hasAppeared" [@enterAnimation]>
-      <div style="margin-left: 10%;max-width: 30%;">
-        <div class="tracking-in-contract" style="font-family: 'NTR', sans-serif; font-size: 50px; color: black;">
-          About me
+<div (appear)="onAppear($event)" style="height:600px;">
+  <div *ngIf="hasAppeared" [@enterAnimation]>
+    <div style="margin-left: 10%;max-width: 75%;">
+      <div style="font-family: 'NTR', sans-serif; font-size: 50px; color: black;">
+        about me
+      </div>
+
+      <div style="display: flex;">
+        <div style="font-family: 'NTR', sans-serif; font-size: 25px; color: grey; flex-grow: 1;">
+          I currently work at <strong>Danske Bank</strong> as a student assistant in their Market Quants department. Here I mainly work
+          on the in-house, nightly batch pipeline framework. <br>
+          Earlier, I worked as a student software engineer in the bank's anti-money-laundering platform, and as an IT student at <strong>GreenMobility</strong>.
         </div>
-  
-        <div style="display: flex;">
-          <div style="font-family: 'NTR', sans-serif; font-size: 25px; color: grey; flex-grow: 1;">
-            More about me here. Bla bla bla.           More about me here. Bla bla bla.           More about me here. Bla bla bla.
-          </div>
-          <div style="float: right; width: 100%;">
-            <img src="assets/me.jpg" style="width: 300px;" alt="me">
-          </div>
+        <div style="float: right; width: 100%;">
+          <img src="assets/me.jpg" style="width: 300px;" alt="me">
         </div>
       </div>
     </div>
   </div>
-  
+</div>
