@@ -30,7 +30,6 @@ export class AppearDirective implements AfterViewInit, OnDestroy {
 
   saveScrollPos(): void {
     this.scrollPos = window.scrollY;
-    console.log(window.scrollY);
   }
 
   getOffsetTop(element: any): number {
@@ -48,13 +47,11 @@ export class AppearDirective implements AfterViewInit, OnDestroy {
         // this.unsubscribe();
         this.appear.emit(true);
         this.hasAppeared = true;
-        console.log('herllo');
       }
     }
     else if (this.hasAppeared && !this.isVisible()) {
       this.appear.emit(false);
       this.hasAppeared = false;
-      console.log('destroy');
     }
 }
   isVisible(): boolean {

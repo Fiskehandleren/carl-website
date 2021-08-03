@@ -23,6 +23,5 @@ export class AppComponent {
     });
 
     this.activeSection = i;
-    console.log(this.activeSection);
   }
 }
