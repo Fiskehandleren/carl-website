@@ -102,7 +102,6 @@ class AppComponent {
             document: this.document
         });
         this.activeSection = i;
-        console.log(this.activeSection);
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](ngx_page_scroll_core__WEBPACK_IMPORTED_MODULE_2__["PageScrollService"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_common__WEBPACK_IMPORTED_MODULE_0__["DOCUMENT"])); };
@@ -261,7 +260,6 @@ class AppearDirective {
     }
     saveScrollPos() {
         this.scrollPos = window.scrollY;
-        console.log(window.scrollY);
     }
     getOffsetTop(element) {
         let offsetTop = element.offsetTop || 0;
@@ -278,13 +276,11 @@ class AppearDirective {
                 // this.unsubscribe();
                 this.appear.emit(true);
                 this.hasAppeared = true;
-                console.log('herllo');
             }
         }
         else if (this.hasAppeared && !this.isVisible()) {
             this.appear.emit(false);
             this.hasAppeared = false;
-            console.log('destroy');
         }
     }
     isVisible() {
@@ -405,7 +401,7 @@ class SectionTwoComponent {
     }
 }
 SectionTwoComponent.ɵfac = function SectionTwoComponent_Factory(t) { return new (t || SectionTwoComponent)(); };
-SectionTwoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: SectionTwoComponent, selectors: [["app-section-two"]], decls: 2, vars: 1, consts: [[2, "height", "600px", 3, "appear"], [4, "ngIf"], [2, "margin-left", "10%", "max-width", "75%"], [2, "font-family", "'NTR', sans-serif", "font-size", "50px", "color", "black"], [2, "display", "flex"], [2, "font-family", "'NTR', sans-serif", "font-size", "25px", "color", "grey", "flex-grow", "1"], [2, "float", "right", "width", "100%"], ["src", "assets/me.jpg", "alt", "me", 2, "width", "300px"]], template: function SectionTwoComponent_Template(rf, ctx) { if (rf & 1) {
+SectionTwoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: SectionTwoComponent, selectors: [["app-section-two"]], decls: 2, vars: 1, consts: [[2, "height", "600px", "max-width", "100%", "max-height", "100%", 3, "appear"], [4, "ngIf"], [2, "margin-left", "10%", "max-width", "75%"], [2, "font-family", "'NTR', sans-serif", "font-size", "50px", "color", "black"], [2, "display", "flex"], [2, "font-family", "'NTR', sans-serif", "font-size", "25px", "color", "grey", "flex-grow", "1"], [2, "float", "right", "width", "100%"], ["src", "assets/me.jpg", "alt", "me", 2, "width", "300px", "max-width", "100%"]], template: function SectionTwoComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("appear", function SectionTwoComponent_Template_div_appear_0_listener($event) { return ctx.onAppear($event); });
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](1, SectionTwoComponent_div_1_Template, 17, 1, "div", 1);
