@@ -2,7 +2,10 @@
 @font-face {
     font-family: lucy;
     src: url(assets/Lucy.otf) format("opentype");
-  }
+}
+$bodycolor: #fffeb3;
+$titlecolor: #6fcb9f;
+$textcolor: #666547;
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body { height: 100%; background-color: $bodycolor;}
+body { margin: 0; font-family: 'NTR', "Helvetica Neue", sans-serif; }
