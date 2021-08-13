@@ -1,17 +1,17 @@
-# My website
+# 🌎 My website
 A small website built with Angular. Visit here: https://fiskehandleren.github.io/carl-website/
 
-## Installation
+## 🛠 Installation
 
 ```
 npm install
 ```
-## Debug locally
+## 🕵️‍♂️ Debug locally
 ```
 npm run start
 ```
 
-# Build 
+# 🔨 Build 
 ```
 npm run build
 ```
