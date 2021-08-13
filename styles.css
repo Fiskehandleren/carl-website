@@ -7,10 +7,11 @@
 }
 html, body {
   height: 100%;
+  background-color: #fffeb3;
 }
 body {
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-family: "NTR", "Helvetica Neue", sans-serif;
 }
 
 /*# sourceMappingURL=styles.css.map*/
