@@ -11,7 +11,21 @@ $linkcolor: #64ffda;
 html, body { height: 100%; background-color: $bodycolor;}
 body { margin: 0; font-family: 'NTR', "Helvetica Neue", sans-serif; }
 
-a {color:$linkcolor; text-decoration: none;}         /* Unvisited link  */
+a {color:$linkcolor; text-decoration: none; }         /* Unvisited link  */
 a:visited {color:$linkcolor;} /* Visited link    */
 a:hover {color:$linkcolor;}   /* Mouse over link */
 a:active {color:$linkcolor;}  /* Selected link   */
+
+@media (max-width:600px){ 
+    .flex-container {
+     flex-direction: column;
+  }
+.img img{ 
+     padding-left: 15vh;
+  } 
+.nameblock{
+     width:90%;
+     margin: auto;
+     padding-left:0;
+  }
+}
