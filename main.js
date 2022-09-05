@@ -12,33 +12,6 @@ module.exports = __webpack_require__(/*! /home/runner/work/carl-website/carl-web
 
 /***/ }),
 
-/***/ "1fes":
-/*!****************************************************!*\
-  !*** ./src/app/experience/experience.component.ts ***!
-  \****************************************************/
-/*! exports provided: ExperienceComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ExperienceComponent", function() { return ExperienceComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
-
-class ExperienceComponent {
-    constructor() { }
-    ngOnInit() {
-    }
-}
-ExperienceComponent.ɵfac = function ExperienceComponent_Factory(t) { return new (t || ExperienceComponent)(); };
-ExperienceComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ExperienceComponent, selectors: [["app-experience"]], decls: 2, vars: 0, template: function ExperienceComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "experience works!");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJleHBlcmllbmNlLmNvbXBvbmVudC5zY3NzIn0= */"] });
-
-
-/***/ }),
-
 /***/ "AytR":
 /*!*****************************************!*\
   !*** ./src/environments/environment.ts ***!
@@ -134,7 +107,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _header_header_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./header/header.component */ "fECr");
 /* harmony import */ var _section_two_section_two_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./section-two/section-two.component */ "zONn");
 /* harmony import */ var _portfolio_portfolio_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./portfolio/portfolio.component */ "zyDg");
-/* harmony import */ var _experience_experience_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./experience/experience.component */ "1fes");
+/* harmony import */ var _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/material/sidenav */ "XhcP");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/core */ "fXoL");
 
 
@@ -158,16 +131,17 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdefineInjecto
             _app_routing_module__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"],
             ngx_page_scroll_core__WEBPACK_IMPORTED_MODULE_1__["NgxPageScrollCoreModule"].forRoot({ duration: 1600 }),
             _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_2__["BrowserAnimationsModule"],
-            _angular_material_card__WEBPACK_IMPORTED_MODULE_3__["MatCardModule"]
+            _angular_material_card__WEBPACK_IMPORTED_MODULE_3__["MatCardModule"],
+            _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_10__["MatSidenavModule"]
         ]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"],
         _header_directive__WEBPACK_IMPORTED_MODULE_6__["AppearDirective"],
         _header_header_component__WEBPACK_IMPORTED_MODULE_7__["HeaderComponent"],
         _section_two_section_two_component__WEBPACK_IMPORTED_MODULE_8__["SectionTwoComponent"],
-        _portfolio_portfolio_component__WEBPACK_IMPORTED_MODULE_9__["PortfolioComponent"],
-        _experience_experience_component__WEBPACK_IMPORTED_MODULE_10__["ExperienceComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+        _portfolio_portfolio_component__WEBPACK_IMPORTED_MODULE_9__["PortfolioComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
         _app_routing_module__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"], ngx_page_scroll_core__WEBPACK_IMPORTED_MODULE_1__["NgxPageScrollCoreModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_2__["BrowserAnimationsModule"],
-        _angular_material_card__WEBPACK_IMPORTED_MODULE_3__["MatCardModule"]] }); })();
+        _angular_material_card__WEBPACK_IMPORTED_MODULE_3__["MatCardModule"],
+        _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_10__["MatSidenavModule"]] }); })();
 
 
 /***/ }),
