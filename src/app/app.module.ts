@@ -10,7 +10,8 @@ import { AppearDirective } from './header.directive';
 import { HeaderComponent } from './header/header.component';
 import { SectionTwoComponent } from './section-two/section-two.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
-import { ExperienceComponent } from './experience/experience.component';
+import {MatSidenavModule} from '@angular/material/sidenav';
+
 
 @NgModule({
   declarations: [
@@ -19,14 +20,14 @@ import { ExperienceComponent } from './experience/experience.component';
     HeaderComponent,
     SectionTwoComponent,
     PortfolioComponent,
-    ExperienceComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgxPageScrollCoreModule.forRoot({ duration: 1600 }),
     BrowserAnimationsModule,
-    MatCardModule
+    MatCardModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]
