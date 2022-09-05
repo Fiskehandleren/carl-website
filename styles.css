@@ -7,11 +7,28 @@
 }
 html, body {
   height: 100%;
-  background-color: #fffeb3;
+  background-color: #112240;
 }
 body {
   margin: 0;
   font-family: "NTR", "Helvetica Neue", sans-serif;
 }
+a {
+  color: #64ffda;
+  text-decoration: none;
+}
+/* Unvisited link  */
+a:visited {
+  color: #64ffda;
+}
+/* Visited link    */
+a:hover {
+  color: #64ffda;
+}
+/* Mouse over link */
+a:active {
+  color: #64ffda;
+}
+/* Selected link   */
 
 /*# sourceMappingURL=styles.css.map*/
