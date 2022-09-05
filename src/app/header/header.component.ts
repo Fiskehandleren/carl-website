@@ -7,7 +7,11 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   hasAppeared = false;
-  onAppear(): void{
+
+  onAppear(): void {
+    if (this.hasAppeared){
+      return;
+    }
     this.hasAppeared = true;
   }
 
