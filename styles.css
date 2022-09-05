@@ -30,5 +30,20 @@ a:active {
   color: #64ffda;
 }
 /* Selected link   */
+@media (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .img img {
+    padding-left: 15vh;
+  }
+
+  .nameblock {
+    width: 90%;
+    margin: auto;
+    padding-left: 0;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map*/
