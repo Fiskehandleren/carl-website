@@ -3,9 +3,15 @@
     font-family: lucy;
     src: url(assets/Lucy.otf) format("opentype");
 }
-$bodycolor: #fffeb3;
-$titlecolor: #6fcb9f;
-$textcolor: #666547;
+$bodycolor: #112240;
+$titlecolor: #2a9d8f;
+$textcolor: #8892b0;
+$linkcolor: #64ffda;
 
 html, body { height: 100%; background-color: $bodycolor;}
 body { margin: 0; font-family: 'NTR', "Helvetica Neue", sans-serif; }
+
+a {color:$linkcolor; text-decoration: none;}         /* Unvisited link  */
+a:visited {color:$linkcolor;} /* Visited link    */
+a:hover {color:$linkcolor;}   /* Mouse over link */
+a:active {color:$linkcolor;}  /* Selected link   */
