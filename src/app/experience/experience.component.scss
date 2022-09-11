@@ -1,0 +1,72 @@
+.example-headers-align .mat-expansion-panel-header-description {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.example-headers-align .mat-form-field+.mat-form-field {
+  margin-left: 8px;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.text-focus-in {
+  -webkit-animation: text-focus-in 2.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: text-focus-in 2.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+.panel-class {
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #8892b0;
+  border-radius: 4px;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.mat-expansion-panel-header-title {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.00938em;
+  color: #64ffda;
+}
+
+.mat-expansion-panel-header-description, .mat-expansion-indicator::after {
+  color: #8892b0;
+}
+
+.mat-expansion-panel {
+  background-color: #112240;
+}
+
+.mat-icon{
+  color: #64ffda;
+}
+
+.mat-list-item{
+  color: #8892b0;
+}

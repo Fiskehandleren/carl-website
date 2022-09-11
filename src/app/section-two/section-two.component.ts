@@ -24,6 +24,9 @@ export class SectionTwoComponent {
   hasAppeared = false;
 
   onAppear(appeared: boolean): void{
+    if (this.hasAppeared){
+      return 
+    }
     this.hasAppeared = appeared;
   }
 
