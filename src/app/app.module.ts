@@ -16,14 +16,14 @@ import { ExperienceComponent } from './experience/experience.component';
 import { AppearDirective } from './header.directive';
 import { HeaderComponent } from './header/header.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
-import { SectionTwoComponent } from './section-two/section-two.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AppearDirective,
     HeaderComponent,
-    SectionTwoComponent,
+    AboutComponent,
     PortfolioComponent,
     ExperienceComponent,
   ],
