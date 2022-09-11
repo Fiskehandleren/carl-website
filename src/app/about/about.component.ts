@@ -10,9 +10,8 @@ export class AboutComponent {
 
   public onAppear(appeared: boolean): void{
     if (this.hasAppeared){
-      return 
+      return;
     }
     this.hasAppeared = appeared;
   }
-
 }

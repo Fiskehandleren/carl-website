@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-experience',
@@ -6,19 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./experience.component.scss']
 })
 export class ExperienceComponent {
-
   step = 0;
 
-  setStep(index: number) {
+  public setStep(index: number): void {
     this.step = index;
   }
 
-  nextStep() {
+  public nextStep(): void {
     this.step++;
   }
 
-  prevStep() {
+  public prevStep(): void {
     this.step--;
   }
-
 }
