@@ -1,97 +1,25 @@
-<div style="min-height: 30vh; display: flex; flex-direction: column; margin-top: 5%;" class="text-focus-in">
-  <div style="font-size: 50px; color: #64ffda; margin-left: 10%;max-width: 75%;">
+<div class="text-focus-in">
+  <div>
     experience
   </div>
   <mat-accordion class="example-headers-align">
-
-    <mat-expansion-panel [expanded]="step === 1" (opened)="setStep(1)" hideToggle class="panel-class">
+    <mat-expansion-panel *ngFor="let item of experiences; let i = index"
+                         [expanded]="step === i+1"
+                         (opened)="setStep(i+1)"
+                         hideToggle
+                         class="panel-class">
       <mat-expansion-panel-header>
         <mat-panel-title>
-          Danske Bank
+          {{item.company}}
         </mat-panel-title>
         <mat-panel-description>
-          Student Data Scientist
-          <mat-icon>settings_suggest</mat-icon>
+          {{item.role}}
+          <mat-icon>{{item.icon}}</mat-icon>
         </mat-panel-description>
       </mat-expansion-panel-header>
       <mat-list>
-        <mat-list-item>
-          <mat-icon>arrow_forward_ios</mat-icon> Performing customer segmentation using machine learning techniques
-        </mat-list-item>
-      </mat-list>
-    </mat-expansion-panel>
-
-    <mat-expansion-panel [expanded]="step === 2" (opened)="setStep(1)" hideToggle class="panel-class">
-      <mat-expansion-panel-header>
-        <mat-panel-title>
-          Danske Bank
-        </mat-panel-title>
-        <mat-panel-description>
-          Student Quant
-          <mat-icon>account_balance</mat-icon>
-        </mat-panel-description>
-      </mat-expansion-panel-header>
-      <mat-list>
-        <mat-list-item>
-          <mat-icon>arrow_forward_ios</mat-icon> Implemented crash detection of the nightly batch-jobs calculating
-          valuations and risk for desks, clients and the Danish FSA, resulting in less delays in deliveries
-        </mat-list-item>
-        <mat-list-item>
-          <mat-icon>arrow_forward_ios</mat-icon> Simplified risk and value calculations delivered to Market Risk,
-          resulting in faster calculations and a simplified code-base
-        </mat-list-item>
-        <mat-list-item>
-          <mat-icon>arrow_forward_ios</mat-icon> Participated in the nightly calculation batch on-call rotation
-        </mat-list-item>
-      </mat-list>
-    </mat-expansion-panel>
-
-    <mat-expansion-panel [expanded]="step === 3" (opened)="setStep(2)" hideToggle class="panel-class">
-      <mat-expansion-panel-header>
-        <mat-panel-title>
-          Danske Bank
-        </mat-panel-title>
-        <mat-panel-description>
-          Student Software Engineer
-          <mat-icon>terminal</mat-icon>
-        </mat-panel-description>
-      </mat-expansion-panel-header>
-      <mat-list>
-        <mat-list-item>
-          <mat-icon>arrow_forward_ios</mat-icon> Completed an MVP frontend solution in Angular, to be used by
-          case-handlers to process anti-money laundering cases for the whole bank.
-        </mat-list-item>
-        <mat-list-item>
-          <mat-icon>arrow_forward_ios</mat-icon> Developed customer anti-money laundering questionnaires in C#, deployed
-          a customer frontend in Angular and setup CI/CD for both solutions.
-        </mat-list-item>
-        <mat-list-item>
-          <mat-icon>arrow_forward_ios</mat-icon> Participated in the nightly calculation batch on-call rotation
-        </mat-list-item>
-      </mat-list>
-    </mat-expansion-panel>
-
-    <mat-expansion-panel [expanded]="step === 4" (opened)="setStep(3)" hideToggle class="panel-class">
-      <mat-expansion-panel-header>
-        <mat-panel-title>
-          GreenMobility
-        </mat-panel-title>
-        <mat-panel-description>
-          IT Student
-          <mat-icon>electric_car</mat-icon>
-        </mat-panel-description>
-      </mat-expansion-panel-header>
-      <mat-list>
-        <mat-list-item>
-          <mat-icon>arrow_forward_ios</mat-icon> Was the only developer in the company, leading to me being responsible
-          for software development and architecture.
-        </mat-list-item>
-        <mat-list-item>
-          <mat-icon>arrow_forward_ios</mat-icon> Developed various tools utilised by customer support to reduce the
-          amount of manual labour, and infrastructure to enable customer subscriptions
-        </mat-list-item>
-        <mat-list-item>
-          <mat-icon>arrow_forward_ios</mat-icon> Developed data-visualization dashboards for various departments
+        <mat-list-item *ngFor="let task of item.tasks">
+          <mat-icon>arrow_forward_ios</mat-icon> {{task}}
         </mat-list-item>
       </mat-list>
     </mat-expansion-panel>
