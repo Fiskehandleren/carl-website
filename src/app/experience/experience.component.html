@@ -3,7 +3,25 @@
     experience
   </div>
   <mat-accordion class="example-headers-align">
+
     <mat-expansion-panel [expanded]="step === 1" (opened)="setStep(1)" hideToggle class="panel-class">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Danske Bank
+        </mat-panel-title>
+        <mat-panel-description>
+          Student Data Scientist
+          <mat-icon>settings_suggest</mat-icon>
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <mat-list>
+        <mat-list-item>
+          <mat-icon>arrow_forward_ios</mat-icon> Performing customer segmentation using machine learning techniques
+        </mat-list-item>
+      </mat-list>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel [expanded]="step === 2" (opened)="setStep(1)" hideToggle class="panel-class">
       <mat-expansion-panel-header>
         <mat-panel-title>
           Danske Bank
@@ -28,7 +46,7 @@
       </mat-list>
     </mat-expansion-panel>
 
-    <mat-expansion-panel [expanded]="step === 2" (opened)="setStep(2)" hideToggle class="panel-class">
+    <mat-expansion-panel [expanded]="step === 3" (opened)="setStep(2)" hideToggle class="panel-class">
       <mat-expansion-panel-header>
         <mat-panel-title>
           Danske Bank
@@ -53,7 +71,7 @@
       </mat-list>
     </mat-expansion-panel>
 
-    <mat-expansion-panel [expanded]="step === 3" (opened)="setStep(3)" hideToggle class="panel-class">
+    <mat-expansion-panel [expanded]="step === 4" (opened)="setStep(3)" hideToggle class="panel-class">
       <mat-expansion-panel-header>
         <mat-panel-title>
           GreenMobility
