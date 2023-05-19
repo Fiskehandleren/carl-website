@@ -38,4 +38,27 @@
 
 .mat-card {
   font-family: 'NTR', sans-serif;
+  background-color: #112240;
+  // Create shadow on border
+  box-shadow: 0 0 0 2px #1a1a1a;
+  color: #8892b0;
+  .mat-card-subtitle {
+    color: #8892b0;
+  }
+  .mat-card-title {
+    color: #64ffda;
+  }
+  border-color: #1a1a1a;
+
+}
+
+.card {
+  width: 45%;
+  margin-right: 2.5%;
+  margin-bottom: 20px;
+}
+
+.card-last {
+  width: 45%;
+  margin-bottom: 20px;
 }
