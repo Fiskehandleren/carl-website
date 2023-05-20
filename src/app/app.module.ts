@@ -17,6 +17,7 @@ import { AppearDirective } from './header.directive';
 import { HeaderComponent } from './header/header.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { AboutComponent } from './about/about.component';
+import { BannerComponent } from './banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { AboutComponent } from './about/about.component';
     AboutComponent,
     PortfolioComponent,
     ExperienceComponent,
+    BannerComponent,
   ],
   imports: [
     BrowserModule,
