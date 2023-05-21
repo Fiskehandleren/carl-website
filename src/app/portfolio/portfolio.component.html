@@ -1,0 +1,80 @@
+<div (appear)="onAppear($event)"
+  style="min-height:100vh; display: flex; flex-direction: column; font-size: calc(10px + 2vmin);">
+  <div *ngIf="hasAppeared">
+    <div class="fade-in" style="margin-left: 10%; max-width: 80%;">
+      <div style="font-family: 'NTR', sans-serif; font-size: 50px; color: #64ffda;">
+        software projects
+      </div>
+
+      <div style="display: flex; flex-wrap: wrap;">
+
+        <mat-card class="card">
+          <mat-card-header>
+            <div mat-card-avatar style="max-width: 300px;">
+              <a href="https://github.com/Fiskehandleren/StudyBot">
+                <img src="assets/GitHub-Mark-64px.png" alt="github icon" width="32px">
+              </a>
+            </div>
+            <mat-card-title>StudyBot</mat-card-title>
+            <mat-card-subtitle>Teams bot powered by NLP</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <p> A Microsoft Teams study bot, which can help out with studying, baking and other stuff.</p>
+            <p class="tech_tags"> React, NLP, Javascript, Azure</p>
+          </mat-card-content>
+        </mat-card>
+
+        <mat-card class="card">
+          <mat-card-header>
+            <div mat-card-avatar style="max-width: 300px;">
+              <a href="https://github.com/Fiskehandleren/carl-website">
+                <img src="assets/GitHub-Mark-64px.png" alt="github icon" width="32px">
+              </a>
+            </div>
+            <mat-card-title>carl-website</mat-card-title>
+            <mat-card-subtitle> Personal website </mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <p> A simple Angular website to show who I am!</p>
+            <p class="tech_tags"> Angular, Typescript, HTML, CSS </p>
+          </mat-card-content>
+        </mat-card>
+
+        <mat-card class="card">
+          <mat-card-header>
+            <div mat-card-avatar style="max-width: 300px;">
+              <a href="https://github.com/Fiskehandleren/LaundryAnalytics">
+                <img src="assets/GitHub-Mark-64px.png" alt="github icon" width="32px">
+              </a>
+            </div>
+            <mat-card-title>LaundryAnalytics</mat-card-title>
+            <mat-card-subtitle> Laundry booking forecasting </mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <p> A Python application employing a machine learning model to alert me via email when there's a high likelihood of laundry needing to be done in the upcoming week. </p>
+            <p class="tech_tags"> Python </p>
+          </mat-card-content>
+        </mat-card>
+
+        <mat-card class="card-last">
+          <mat-card-header>
+            <div mat-card-avatar style="max-width: 300px; ">
+              <a href="assets/titanic.html" target="_blank">
+                <img src="assets/Python.png" alt="github icon" width="32px">
+              </a>
+            </div>
+            <mat-card-title>Titanic</mat-card-title>
+            <mat-card-subtitle> Titanic Kaggle Challenge </mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <p>This project demonstrates an end-to-end data science workflow with the Kaggle Titanic dataset. 
+              It involves data cleaning, feature engineering and model training, providing a real-world modeling scenario.
+            </p>
+            <p class="tech_tags"> Python </p>
+          </mat-card-content>
+        </mat-card>
+
+      </div>
+    </div>
+  </div>
+</div>
