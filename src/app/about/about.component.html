@@ -1,14 +1,14 @@
-<div (appear)="onAppear($event)" style="min-height:50vh; max-width: 1000px; display: flex; flex-direction: column; font-size: calc(12px + 1vmin); margin-left: 10%;">
+<div (appear)="onAppear($event)" class="main-container">
   <div *ngIf="hasAppeared" class="fade-in">
-    <div style="font-family: 'NTR', sans-serif; font-size: 50px; color: #64ffda;">
+    <div class="title-text">
       about me
     </div>
-    <div style="display: flex; align-items: flex-start; justify-content: space-between; flex-wrap: wrap;">
-      <div style="color: #8892b0; flex: 1 1 50%;">
+    <div class="content-container">
+      <div class="content-text">
         I currently work at <a href="https://danskebank.dk" class="highlight_text">Danske Bank</a> as a Student Data Scientist in Data Science Risk, SuperAI. Here I work on performing customer segmentation. <br> Previously, I worked as a Student Quant in the Market Quants (SuperFly) department, student software engineer in the bank's anti-money-laundering platform, and as an IT student at <a href="https://www.greenmobility.com" class="highlight_text">GreenMobility</a>.
       </div>
-      <div style="flex: 1 1 50%; display: flex; justify-content: center; align-items: flex-start;">
-        <img src="assets/me.jpg" style="width: 300px; max-width: 100%;" alt="me">
+      <div class="image-container">
+        <img src="assets/me.jpg" class="image-style" alt="me">
       </div>
     </div>
   </div>

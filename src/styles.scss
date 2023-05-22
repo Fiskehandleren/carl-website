@@ -3,10 +3,24 @@
     font-family: lucy;
     src: url(assets/Lucy.otf) format("opentype");
 }
+/* 
 $bodycolor: #112240;
 $titlecolor: #2a9d8f;
 $textcolor: #8892b0;
 $linkcolor: #64ffda;
+*/ 
+
+$bodycolor: #537188;
+$titlecolor: #CBB279;
+$linkcolor: #E1D4BB;
+$textcolor: #EEEEEE;
+$shadowcolor: #000000;
+
+
+$textFontSize: calc(12px + 1vmin); 
+$titleFontSize: 50px;
+
+$maxSectionWidth: 1000px;
 
 html, body { height: 100%; background-color: $bodycolor;}
 body { margin: 0; font-family: 'NTR', "Helvetica Neue", sans-serif; }

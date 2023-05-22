@@ -19,7 +19,8 @@
       </mat-expansion-panel-header>
       <mat-list>
         <mat-list-item *ngFor="let task of item.tasks">
-          <mat-icon class="item_icon">arrow_forward_ios</mat-icon> {{task}}
+          <mat-icon matListIcon>arrow_forward_ios</mat-icon>
+          <div> {{task}} </div>
         </mat-list-item>
       </mat-list>
     </mat-expansion-panel>

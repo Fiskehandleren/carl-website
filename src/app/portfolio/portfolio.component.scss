@@ -7,20 +7,21 @@
 
 .container {
   min-height:100vh; 
+  max-width: styles.$maxSectionWidth;
   display: flex; 
+  margin-left: 10%; 
   flex-direction: column; 
-  font-size: calc(12px + 1vmin);
+  font-size: styles.$textFontSize;
 }
 
 .project-content {
-  margin-left: 10%; 
-  max-width: 1000px;
+  max-width: styles.$maxSectionWidth;
 }
 
 .title {
   font-family: 'NTR', sans-serif; 
-  font-size: 50px; 
-  color: #64ffda;
+  font-size: styles.$titleFontSize; 
+  color: styles.$linkcolor;
 }
 
 .card-container {
@@ -65,7 +66,7 @@
   font-family: 'NTR', sans-serif;
   background-color: styles.$bodycolor;
   // Create shadow on border
-  box-shadow: 0 0 0 2px #1a1a1a;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.3);
   color: styles.$textcolor;
   .mat-card-subtitle {
     color: styles.$textcolor;
@@ -73,7 +74,6 @@
   .mat-card-title {
     color: styles.$linkcolor;
   }
-  border-color: #1a1a1a;
 }
 
 .card {
