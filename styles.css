@@ -10,9 +10,15 @@
   font-family: lucy;
   src: url('Lucy.otf') format("opentype");
 }
+/* 
+$bodycolor: #112240;
+$titlecolor: #2a9d8f;
+$textcolor: #8892b0;
+$linkcolor: #64ffda;
+*/
 html, body {
   height: 100%;
-  background-color: #112240;
+  background-color: #537188;
 }
 
 body {
@@ -21,17 +27,17 @@ body {
 }
 
 a {
-  color: #64ffda;
+  color: #E1D4BB;
   text-decoration: none;
 } /* Unvisited link  */
 a:visited {
-  color: #64ffda;
+  color: #E1D4BB;
 } /* Visited link    */
 a:hover {
-  color: #64ffda;
+  color: #E1D4BB;
 } /* Mouse over link */
 a:active {
-  color: #64ffda;
+  color: #E1D4BB;
 } /* Selected link   */
 @media (max-width: 600px) {
   .flex-container {
