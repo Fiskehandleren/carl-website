@@ -1,16 +1,14 @@
-<div (appear)="onAppear($event)"
-  style="min-height:100vh; display: flex; flex-direction: column; font-size: calc(10px + 2vmin);">
+<div (appear)="onAppear($event)" class="container">
   <div *ngIf="hasAppeared">
-    <div class="fade-in" style="margin-left: 10%; max-width: 80%;">
-      <div style="font-family: 'NTR', sans-serif; font-size: 50px; color: #64ffda;">
+    <div class="fade-in project-content">
+      <div class="title">
         software projects
       </div>
 
-      <div style="display: flex; flex-wrap: wrap;">
-
+      <div class="card-container">
         <mat-card class="card">
           <mat-card-header>
-            <div mat-card-avatar style="max-width: 300px;">
+            <div mat-card-avatar class="avatar">
               <a href="https://github.com/Fiskehandleren/StudyBot">
                 <img src="assets/GitHub-Mark-64px.png" alt="github icon" width="32px">
               </a>
@@ -26,7 +24,7 @@
 
         <mat-card class="card">
           <mat-card-header>
-            <div mat-card-avatar style="max-width: 300px;">
+            <div mat-card-avatar class="avatar">
               <a href="https://github.com/Fiskehandleren/carl-website">
                 <img src="assets/GitHub-Mark-64px.png" alt="github icon" width="32px">
               </a>
@@ -42,7 +40,7 @@
 
         <mat-card class="card">
           <mat-card-header>
-            <div mat-card-avatar style="max-width: 300px;">
+            <div mat-card-avatar class="avatar">
               <a href="https://github.com/Fiskehandleren/LaundryAnalytics">
                 <img src="assets/GitHub-Mark-64px.png" alt="github icon" width="32px">
               </a>
@@ -56,9 +54,9 @@
           </mat-card-content>
         </mat-card>
 
-        <mat-card class="card-last">
+        <mat-card class="card">
           <mat-card-header>
-            <div mat-card-avatar style="max-width: 300px; ">
+            <div mat-card-avatar class="avatar">
               <a href="assets/titanic.html" target="_blank">
                 <img src="assets/Python.png" alt="github icon" width="32px">
               </a>
@@ -73,7 +71,6 @@
             <p class="tech_tags"> Python </p>
           </mat-card-content>
         </mat-card>
-
       </div>
     </div>
   </div>

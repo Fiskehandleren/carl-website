@@ -1,8 +1,31 @@
 @use '../../styles.scss';
 
 .tech_tags{
-    color: textcolor;
+    color: styles.$textcolor;
     opacity: 50%;
+}
+
+.container {
+  min-height:100vh; 
+  display: flex; 
+  flex-direction: column; 
+  font-size: calc(12px + 1vmin);
+}
+
+.project-content {
+  margin-left: 10%; 
+  max-width: 1000px;
+}
+
+.title {
+  font-family: 'NTR', sans-serif; 
+  font-size: 50px; 
+  color: #64ffda;
+}
+
+.card-container {
+  display: flex; 
+  flex-wrap: wrap;
 }
 
 .fade-in {
@@ -62,18 +85,16 @@
     -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
             animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
-}
-
-.card-last {
-  width: 42.5%;
-  margin-bottom: 20px;
-  &:hover {
-    -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  // Target the last child of .card
+  &:last-child {
+    margin-right: 0;
   }
 }
 
-// attempt
+.mat-card-content {
+  font-size: medium;
+}
+
 .shadow-drop-2-center {
 	-webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -118,8 +139,4 @@
     -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
             box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
   }
-}
-
-.mat-card-content {
-  font-size: medium;
 }
