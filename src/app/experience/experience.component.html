@@ -1,26 +1,29 @@
-<div class="text-focus-in" style="min-height: 20vw; max-width: 1000px; margin-left: 10%;" > 
-  <div>
-    experience
-  </div>
+<div
+  class="text-focus-in"
+  style="min-height: 20vw; max-width: 1000px; margin-left: 10%"
+>
+  <div>experience</div>
   <mat-accordion class="example-headers-align">
-    <mat-expansion-panel *ngFor="let item of experiences; let i = index"
-                         [expanded]="step === i+1"
-                         (opened)="setStep(i+1)"
-                         hideToggle
-                         class="panel-class">
+    <mat-expansion-panel
+      *ngFor="let item of experiences; let i = index"
+      [expanded]="step === i + 1"
+      (opened)="setStep(i + 1)"
+      hideToggle
+      class="panel-class"
+    >
       <mat-expansion-panel-header>
         <mat-panel-title>
-          {{item.company}}
+          {{ item.company }}
         </mat-panel-title>
         <mat-panel-description>
-          {{item.role}}
-          <mat-icon>{{item.icon}}</mat-icon>
+          {{ item.role }}
+          <mat-icon>{{ item.icon }}</mat-icon>
         </mat-panel-description>
       </mat-expansion-panel-header>
       <mat-list>
         <mat-list-item *ngFor="let task of item.tasks">
           <mat-icon matListIcon>arrow_forward_ios</mat-icon>
-          <div> {{task}} </div>
+          <div>{{ task }}</div>
         </mat-list-item>
       </mat-list>
     </mat-expansion-panel>
