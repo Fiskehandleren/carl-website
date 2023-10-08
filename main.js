@@ -20,23 +20,27 @@ __webpack_require__.r(__webpack_exports__);
 function AboutComponent_div_1_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 2)(1, "div", 3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, " about me ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, "about me");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "div", 4)(4, "div", 5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](5, " I currently work at ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](5, " I'm currently employed as a Data Science Graduate at ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "a", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](7, "Danske Bank");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](7, "DSV");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8, " as a Student Data Scientist in Data Science Risk, SuperAI. Here I work on performing customer segmentation. ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](9, "br");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](10, " Previously, I worked as a Student Quant in the Market Quants (SuperFly) department, student software engineer in the bank's anti-money-laundering platform, and as an IT student at ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "a", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](12, "GreenMobility");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8, ", where I specialize in Large Language Models. Before joining DSV, I was a Student Data Scientist at ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "a", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](10, "Danske Bank");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](13, ". ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](11, " in the Data Science Risk and SuperAI divisions, focusing on customer segmentation. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](12, "br");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](13, " My past roles also include a stint as a Student Quant in Market Quants (SuperFly), a Student Software Engineer on the bank's anti-money-laundering platform, and an IT Student role at ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](14, "a", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](15, "GreenMobility");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](14, "div", 8);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](15, "img", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](16, ". ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](17, "div", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](18, "img", 10);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
   }
 }
@@ -59,14 +63,14 @@ AboutComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["
   selectors: [["app-about"]],
   decls: 2,
   vars: 1,
-  consts: [[1, "main-container", 3, "appear"], ["class", "fade-in", 4, "ngIf"], [1, "fade-in"], [1, "title-text"], [1, "content-container"], [1, "content-text"], ["href", "https://danskebank.dk", 1, "highlight_text"], ["href", "https://www.greenmobility.com", 1, "highlight_text"], [1, "image-container"], ["src", "assets/me.jpg", "alt", "me", 1, "image-style"]],
+  consts: [[1, "main-container", 3, "appear"], ["class", "fade-in", 4, "ngIf"], [1, "fade-in"], [1, "title-text"], [1, "content-container"], [1, "content-text"], ["href", "https://www.dsv.com", 1, "highlight_text"], ["href", "https://danskebank.dk", 1, "highlight_text"], ["href", "https://www.greenmobility.com", 1, "highlight_text"], [1, "image-container"], ["src", "assets/me2.jpg", "alt", "me", 1, "image-style"]],
   template: function AboutComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("appear", function AboutComponent_Template_div_appear_0_listener($event) {
         return ctx.onAppear($event);
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](1, AboutComponent_div_1_Template, 16, 0, "div", 1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](1, AboutComponent_div_1_Template, 19, 0, "div", 1);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     }
     if (rf & 2) {
@@ -277,7 +281,7 @@ function ExperienceComponent_mat_expansion_panel_4_mat_list_item_9_Template(rf, 
   if (rf & 2) {
     const task_r4 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", task_r4, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](task_r4);
   }
 }
 function ExperienceComponent_mat_expansion_panel_4_Template(rf, ctx) {
@@ -321,25 +325,30 @@ class ExperienceComponent {
   constructor() {
     this.step = 0;
     this.experiences = [{
-      company: "Danske Bank",
-      role: "Student Data Scientist",
-      icon: "settings_suggest",
-      tasks: ["Performing customer segmentation using machine learning techniques"]
+      company: 'DSV',
+      role: 'Data Science Graduate',
+      icon: 'local_shipping',
+      tasks: ['Maintained Transformer-based models in production to do named-entity recognition in unstructured data and document classification']
     }, {
-      company: "Danske Bank",
-      role: "Student Quant",
-      icon: "account_balance",
-      tasks: ["Implemented crash detection of the nightly batch-jobs calculating valuations and risk for desks, clients and the Danish FSA, resulting in less delays in deliveries", "Simplified risk and value calculations delivered to Market Risk, resulting in faster calculations and a simplified code-base", "Participated in the nightly calculation batch on-call rotation"]
+      company: 'Danske Bank',
+      role: 'Student Data Scientist',
+      icon: 'settings_suggest',
+      tasks: ['Performing customer segmentation using machine learning techniques']
     }, {
-      company: "Danske Bank",
-      role: "Student Software Engineer",
-      icon: "terminal",
-      tasks: ["Completed an MVP frontend solution in Angular, to be used by case-handlers to process anti-money laundering cases for the whole bank", "Developed customer anti-money laundering questionnaires in C#, deployed a customer frontend in Angular and setup CI/CD for both solutions", "Participated in the nightly calculation batch on-call rotation"]
+      company: 'Danske Bank',
+      role: 'Student Quant',
+      icon: 'account_balance',
+      tasks: ['Implemented crash detection of the nightly batch-jobs calculating valuations and risk for desks, clients and the Danish FSA, resulting in less delays in deliveries', 'Simplified risk and value calculations delivered to Market Risk, resulting in faster calculations and a simplified code-base', 'Participated in the nightly calculation batch on-call rotation']
     }, {
-      company: "GreenMobility",
-      role: "IT Student",
-      icon: "electric_car",
-      tasks: ["Was the only developer in the company, leading to me being responsible for software development and architecture", "Developed various tools utilised by customer support to reduce the amount of manual labour, and infrastructure to enable customer subscriptions", "Developed data-visualization dashboards for various departments"]
+      company: 'Danske Bank',
+      role: 'Student Software Engineer',
+      icon: 'terminal',
+      tasks: ['Completed an MVP frontend solution in Angular, to be used by case-handlers to process anti-money laundering cases for the whole bank', 'Developed customer anti-money laundering questionnaires in C#, deployed a customer frontend in Angular and setup CI/CD for both solutions', 'Participated in the nightly calculation batch on-call rotation']
+    }, {
+      company: 'GreenMobility',
+      role: 'IT Student',
+      icon: 'electric_car',
+      tasks: ['Was the only developer in the company, leading to me being responsible for software development and architecture', 'Developed various tools utilised by customer support to reduce the amount of manual labour, and infrastructure to enable customer subscriptions', 'Developed data-visualization dashboards for various departments']
     }];
   }
   setStep(index) {
@@ -364,7 +373,7 @@ ExperienceComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_
   template: function ExperienceComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0)(1, "div");
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, " experience ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "experience");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "mat-accordion", 1);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, ExperienceComponent_mat_expansion_panel_4_Template, 10, 5, "mat-expansion-panel", 2);
@@ -507,20 +516,20 @@ HeaderComponent.ɵfac = function HeaderComponent_Factory(t) {
 HeaderComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
   type: HeaderComponent,
   selectors: [["app-header"]],
-  decls: 32,
+  decls: 35,
   vars: 0,
   consts: [[1, "main-container"], [1, "text-flicker-in-glow", "flicker-text"], [1, "text-focus-in", "focus-text"], ["href", "https://www.dtu.dk"], ["href", "https://www.ku.dk/english/"], ["href", "https://www.nus.edu.sg"], [1, "highlight_text"], [1, "text-focus-in"], ["href", "https://www.linkedin.com/in/carl-johan-astrup/", "target", "_blank"], ["src", "assets/linkedin.svg", "alt", "linkedin logo", 1, "icon"], ["href", "https://github.com/Fiskehandleren", "target", "_blank"], ["src", "assets/GitHub-Mark-64px.png", "alt", "github logo", 1, "icon"], ["href", "https://twitter.com/UngeCarl", "target", "_blank"], ["src", "assets/twitter.svg", "alt", "github logo", 1, "icon"]],
   template: function HeaderComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0)(1, "div", 1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, " i'm carl! ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "i'm carl!");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " I'm a second-year MSc. Mathematical Modelling student at ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " I hold a MSc. in Mathematical Modelling and Computation from ");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "a", 3);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "DTU");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " in Copenhagen. I hold a BSc. degree in computer science from ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " and a BSc. degree in Computer Science from ");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "a", 4);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, " University of Copenhagen ");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -532,26 +541,30 @@ HeaderComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "br");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, " My primary interests are ");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "strong", 6);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "data science");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "graph neural networks");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, ", ");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "strong", 6);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "finance");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "recommender systems");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, " and ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, ", ");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "strong", 6);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "programming");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "finance");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, ". ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, " and ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "strong", 6);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "programming");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 7)(26, "a", 8);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "img", 9);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, ". ");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "a", 10);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](29, "img", 11);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 7)(29, "a", 8);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](30, "img", 9);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "a", 12);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](31, "img", 13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "a", 10);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](32, "img", 11);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "a", 12);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](34, "img", 13);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
     }
   },
@@ -581,7 +594,7 @@ __webpack_require__.r(__webpack_exports__);
 function PortfolioComponent_div_1_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div")(1, "div", 2)(2, "div", 3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](3, " software projects ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](3, "software projects");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "div", 4)(5, "mat-card", 5)(6, "mat-card-header")(7, "div", 6)(8, "a", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](9, "img", 8);
@@ -593,10 +606,10 @@ function PortfolioComponent_div_1_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](13, "Teams bot powered by NLP");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](14, "mat-card-content")(15, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](16, " A Microsoft Teams study bot, which can help out with studying, baking and other stuff.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](16, " A Microsoft Teams study bot, which can help out with studying, baking and other stuff. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](17, "p", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](18, " React, NLP, Javascript, Azure");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](18, "React, NLP, Javascript, Azure");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](19, "mat-card", 5)(20, "mat-card-header")(21, "div", 6)(22, "a", 10);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](23, "img", 8);
@@ -608,10 +621,10 @@ function PortfolioComponent_div_1_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](27, " Personal website ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](28, "mat-card-content")(29, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](30, " A simple Angular website to show who I am!");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](30, "A simple Angular website to show who I am!");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](31, "p", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](32, " Angular, Typescript, HTML, CSS ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](32, "Angular, Typescript, HTML, CSS");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](33, "mat-card", 5)(34, "mat-card-header")(35, "div", 6)(36, "a", 11);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](37, "img", 8);
@@ -626,7 +639,7 @@ function PortfolioComponent_div_1_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](44, " A Python application employing a machine learning model to alert me via email when there's a high likelihood of laundry needing to be done in the upcoming week. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](45, "p", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](46, " Python ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](46, "Python");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](47, "mat-card", 5)(48, "mat-card-header")(49, "div", 6)(50, "a", 12);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](51, "img", 13);
@@ -638,10 +651,10 @@ function PortfolioComponent_div_1_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](55, " Titanic Kaggle Challenge ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](56, "mat-card-content")(57, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](58, "This project demonstrates an end-to-end data science workflow with the Kaggle Titanic dataset. It involves data cleaning, feature engineering and model training, providing a real-world modeling scenario. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](58, " This project demonstrates an end-to-end data science workflow with the Kaggle Titanic dataset. It involves data cleaning, feature engineering and model training, providing a real-world modeling scenario. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](59, "p", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](60, " Python ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](60, "Python");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()()();
   }
 }
