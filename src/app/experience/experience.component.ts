@@ -10,6 +10,12 @@ export class ExperienceComponent {
 
   experiences = [
     {
+      company: 'Halfspace',
+      role: 'Data Scientist',
+      icon: 'rocket',
+      tasks: ['Bayesian Media Mix Modelling', 'Consulting'],
+    },
+    {
       company: 'DSV',
       role: 'Data Science Graduate',
       icon: 'local_shipping',
