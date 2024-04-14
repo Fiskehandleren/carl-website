@@ -27,20 +27,24 @@ function AboutComponent_div_1_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "a", 6);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](7, "Halfspace");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8, ". Previously I worked in DSV, where I specialize in Large Language Models. During my studies I was a Student Data Scientist at ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8, ". Previously I worked in ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "a", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](10, "Danske Bank");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](10, "DSV");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](11, " in the Data Science Risk and SuperAI divisions, focusing on customer segmentation. ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](12, "br");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](13, " My past roles also include a stint as a Student Quant in Market Quants (SuperFly), a Student Software Engineer on the bank's anti-money-laundering platform, and an IT Student role at ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](14, "a", 8);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](15, "GreenMobility");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](11, ", where I specialize in Large Language Models. During my studies I was a Student Data Scientist at ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "a", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](13, "Danske Bank");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](16, ". ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](14, " in the Data Science Risk and SuperAI divisions, focusing on customer segmentation. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](15, "br");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](16, " My past roles also include a stint as a Student Quant in Market Quants (SuperFly), a Student Software Engineer on the bank's anti-money-laundering platform, and an IT Student role at ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](17, "a", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](18, "GreenMobility");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](17, "div", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](18, "img", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](19, ". ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](20, "div", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](21, "img", 11);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
   }
 }
@@ -63,14 +67,14 @@ AboutComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["
   selectors: [["app-about"]],
   decls: 2,
   vars: 1,
-  consts: [[1, "main-container", 3, "appear"], ["class", "fade-in", 4, "ngIf"], [1, "fade-in"], [1, "title-text"], [1, "content-container"], [1, "content-text"], ["href", "https://www.halfspace.ai", 1, "highlight_text"], ["href", "https://danskebank.dk", 1, "highlight_text"], ["href", "https://www.greenmobility.com", 1, "highlight_text"], [1, "image-container"], ["src", "assets/carl.avif", "alt", "me", 1, "image-style"]],
+  consts: [[1, "main-container", 3, "appear"], ["class", "fade-in", 4, "ngIf"], [1, "fade-in"], [1, "title-text"], [1, "content-container"], [1, "content-text"], ["href", "https://www.halfspace.ai", 1, "highlight_text"], ["href", "https://www.dsv.com", 1, "highlight_text"], ["href", "https://danskebank.dk", 1, "highlight_text"], ["href", "https://www.greenmobility.com", 1, "highlight_text"], [1, "image-container"], ["src", "assets/carl.avif", "alt", "me", 1, "image-style"]],
   template: function AboutComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("appear", function AboutComponent_Template_div_appear_0_listener($event) {
         return ctx.onAppear($event);
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](1, AboutComponent_div_1_Template, 19, 0, "div", 1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](1, AboutComponent_div_1_Template, 22, 0, "div", 1);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     }
     if (rf & 2) {
