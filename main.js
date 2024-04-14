@@ -23,11 +23,11 @@ function AboutComponent_div_1_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, "about me");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "div", 4)(4, "div", 5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](5, " I'm currently employed as a Data Science Graduate at ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](5, " I'm currently employed as a Data Scientist at ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "a", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](7, "DSV");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](7, "Halfspace");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8, ", where I specialize in Large Language Models. Before joining DSV, I was a Student Data Scientist at ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8, ". Previously I worked in DSV, where I specialize in Large Language Models. During my studies I was a Student Data Scientist at ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "a", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](10, "Danske Bank");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -63,7 +63,7 @@ AboutComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["
   selectors: [["app-about"]],
   decls: 2,
   vars: 1,
-  consts: [[1, "main-container", 3, "appear"], ["class", "fade-in", 4, "ngIf"], [1, "fade-in"], [1, "title-text"], [1, "content-container"], [1, "content-text"], ["href", "https://www.dsv.com", 1, "highlight_text"], ["href", "https://danskebank.dk", 1, "highlight_text"], ["href", "https://www.greenmobility.com", 1, "highlight_text"], [1, "image-container"], ["src", "assets/me2.jpg", "alt", "me", 1, "image-style"]],
+  consts: [[1, "main-container", 3, "appear"], ["class", "fade-in", 4, "ngIf"], [1, "fade-in"], [1, "title-text"], [1, "content-container"], [1, "content-text"], ["href", "https://www.halfspace.ai", 1, "highlight_text"], ["href", "https://danskebank.dk", 1, "highlight_text"], ["href", "https://www.greenmobility.com", 1, "highlight_text"], [1, "image-container"], ["src", "assets/carl.avif", "alt", "me", 1, "image-style"]],
   template: function AboutComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
@@ -325,6 +325,11 @@ class ExperienceComponent {
   constructor() {
     this.step = 0;
     this.experiences = [{
+      company: 'Halfspace',
+      role: 'Data Scientist',
+      icon: 'rocket',
+      tasks: ['Bayesian Media Mix Modelling', 'Consulting']
+    }, {
       company: 'DSV',
       role: 'Data Science Graduate',
       icon: 'local_shipping',
@@ -533,7 +538,7 @@ HeaderComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "a", 4);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, " University of Copenhagen ");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " where I specialized in data science, and I just returned from an exchange stay at ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " where I specialized in data science. I did exchange during my MSc. at ");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "a", 5);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "National University of Singapore");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
