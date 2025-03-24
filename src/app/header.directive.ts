@@ -2,7 +2,8 @@ import { AfterViewInit, Directive, ElementRef, EventEmitter, OnDestroy, Output }
 import { Subscription, fromEvent } from 'rxjs';
 
 @Directive({
-  selector: '[appear]'
+    selector: '[appear]',
+    standalone: false
 })
 export class AppearDirective implements AfterViewInit, OnDestroy {
   @Output()
