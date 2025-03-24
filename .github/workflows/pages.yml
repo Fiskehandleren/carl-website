@@ -1,5 +1,5 @@
 name: Build and Deploy
-on: 
+on:
   push:
     branches:
       - master
@@ -12,7 +12,7 @@ jobs:
       - name: Setup Node.js Environment 🌳
         uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: "20"
       - name: Install and Build 🔧
         run: |
           npm install
