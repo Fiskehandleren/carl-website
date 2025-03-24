@@ -43,3 +43,9 @@ a:active {color:$linkcolor;}  /* Selected link   */
      padding-left:0;
   }
 }
+
+.task-text {
+  color: $textcolor;
+  white-space: normal;
+  line-height: 1.4;
+}
