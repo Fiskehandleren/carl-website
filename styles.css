@@ -2383,6 +2383,11 @@ a:active {
     padding-left: 0;
   }
 }
+.task-text {
+  color: #EEEEEE;
+  white-space: normal;
+  line-height: 1.4;
+}
 
 /* angular:styles/global:styles */
 /*# sourceMappingURL=styles.css.map */
