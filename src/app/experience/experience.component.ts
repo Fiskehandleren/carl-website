@@ -16,8 +16,7 @@ export class ExperienceComponent {
       icon: 'rocket',
       tasks: [
         'Tech Lead for multiple end-to-end data science projects',
-        'Consulting',
-        'Databricks',
+        'Co-author of inhouse Mix Media Modelling framework',
       ],
     },
     {
