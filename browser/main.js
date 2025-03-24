@@ -75473,7 +75473,11 @@ var ExperienceComponent = class _ExperienceComponent {
         company: "Halfspace",
         role: "Data Scientist",
         icon: "rocket",
-        tasks: ["Bayesian Media Mix Modelling", "Consulting"]
+        tasks: [
+          "Tech Lead for multiple end-to-end data science projects",
+          "Consulting",
+          "Databricks"
+        ]
       },
       {
         company: "DSV",
