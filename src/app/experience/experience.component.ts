@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'app-experience',
-    templateUrl: './experience.component.html',
-    styleUrls: ['./experience.component.scss'],
-    standalone: false
+  selector: 'app-experience',
+  templateUrl: './experience.component.html',
+  styleUrls: ['./experience.component.scss'],
+  standalone: false,
 })
 export class ExperienceComponent {
   step = 0;
@@ -14,7 +14,11 @@ export class ExperienceComponent {
       company: 'Halfspace',
       role: 'Data Scientist',
       icon: 'rocket',
-      tasks: ['Bayesian Media Mix Modelling', 'Consulting'],
+      tasks: [
+        'Tech Lead for multiple end-to-end data science projects',
+        'Consulting',
+        'Databricks',
+      ],
     },
     {
       company: 'DSV',
