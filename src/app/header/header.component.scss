@@ -6,8 +6,11 @@
   flex-direction: column; 
   font-size: styles.$textFontSize;
   margin-top: 5%; 
+  width: 100%;
   max-width: styles.$maxSectionWidth;
-  margin-left: 10%;
+  padding: 0 10%;
+  box-sizing: border-box;
+  margin-left: 0;
 }
 .flicker-text {
   font-size: styles.$titleFontSize;
@@ -337,5 +340,11 @@
     -webkit-filter: blur(0px);
             filter: blur(0px);
     opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    padding: 0 5%;
   }
 }

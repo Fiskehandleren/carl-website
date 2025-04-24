@@ -7,16 +7,20 @@
   display: flex;
   flex-direction: column;
   margin-top: 5%;
+  width: 100%;
+  max-width: styles.$maxSectionWidth;
+  padding: 0 10%;
+  box-sizing: border-box;
 }
 
 .text-focus-in > div:first-child {
   font-size: styles.$titleFontSize;
   color: styles.$linkcolor;
-  max-width: 75%;
+  max-width: 100%;
 }
 
 .panel-class {
-  margin-right: 10%;
+  width: 100%;
   color: styles.$textcolor;
   border-radius: 4px;
   box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
@@ -94,5 +98,11 @@
     -webkit-filter: blur(0px);
     filter: blur(0px);
     opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .text-focus-in {
+    padding: 0 5%;
   }
 }
